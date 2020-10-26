@@ -53,8 +53,9 @@ spec:
         - --grpc-port=9999
         - --grpc-service-name=podinfo
         - --level=info
-        - --random-delay=false
+--ui-message='Welcome to Flux'        - --random-delay=false
         - --random-error=false
+        - --ui-message='Welcome to K3s-Flux'
         env:
         - name: PODINFO_UI_COLOR
           value: "#34577c"
